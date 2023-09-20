@@ -1,10 +1,9 @@
 package example;
+import java.util.Scanner;
+public class Main {
 
-public class Main{
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
         student st = new student();
-
         st.setId(2);
         st.setName("bhuvi");
         st.setDob("01-08-2002");
@@ -19,6 +18,9 @@ public class Main{
         System.out.println(name);
         System.out.println(dob);
         System.out.println(department);
-
     }
 }
+
+
+
+
